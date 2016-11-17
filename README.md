@@ -26,4 +26,3 @@ Start up server (on a different terminal tab):
 
 webdriver-manager start
 
-Execute
