@@ -2,5 +2,5 @@
 exports.config = {
   framework: 'jasmine',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['RegisterSpec.js']
+  specs: ['./Register/RegisterSpec.js']
 }

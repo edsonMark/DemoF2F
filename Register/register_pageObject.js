@@ -32,7 +32,7 @@ class register {
   }
 
   static get lnkRegister () {
-    return element(by.linktext('Register'));
+    return element(by.linkText('Register'));
   }
 
   static get txtFirstname () {
@@ -53,6 +53,10 @@ class register {
 
   static get txtConfirmPswd () {
     return element(by.css('[ng-model="vm.loginRegister.passwordConfirm.value"]'));
+  }
+
+  static get btnCreateAccount () {
+    return element(by.css('input.btn--inactive.btn--active'));
   }
 
   static get chkEmailUpdate () {
