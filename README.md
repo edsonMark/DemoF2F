@@ -12,7 +12,7 @@ Node v4.4.0 at least
 Java JDK 8
 Clone repository:
 
-Create a folder and clone this respository with git clone git@github.com:mardereyes/loginTest.git
+Create a folder and clone this respository with git clone https://github.com/edsonMark/yieldifyTask.git
 
 Install protractor globally:
 
