@@ -1,18 +1,21 @@
 Registration Scenarios
+describe (Registration form)
 It Should be displayed when user clicks on Register link.
 It Should not allow mismatching passwords.
 it Should validate mandatory and or empty fields
 it Should not allow invalid email.
 
 Search Scenarios
+describe (Search)
 It Should not display search results with empty criteria.
 It Should display search items with valid search criteria.
 
-Sign in Scenarios
-It Should fail sign in with incorrect user.
-It Should fail sign in with incorrect password.
+Navigation Scenarios.
+It Should be able to able navigate to relevant product department.
+It Should be able to filter product by relevant filter according to department. 
 
-Homepage Scenarions
+Homepage Scenario.
+describe (Homepage)
 it Should be able to display navigation links set from the CMS.
 it Should allow any link to be clicked.
 
