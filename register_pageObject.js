@@ -20,15 +20,6 @@ class register {
     this.txtConfirmPswd.sendKeys(protractor.Key.TAB);
   }
 
-  static RegisterStandAlone () {
-    this.lnkRegister.click();
-    this.fillForgetForm('sample', 'sample', 'user'+ Math.floor((Math.random() * 10000))+'@seod.com','Sample1234','Sample1234');
-    browser.executeScript('window.scrollTo(0,0);');
-    this.chkEmailUpdate.click();
-    this.chktextUpdate.click();
-    this.btnCreateAccount.click();
-  }
-
   static get lnkRegister () {
     return element.all(by.css('.account-info .reg-link'));
   }
