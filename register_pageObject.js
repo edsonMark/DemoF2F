@@ -64,6 +64,10 @@ class register {
   static get chktextUpdate () {
     return element(by.id('registerTextUpdates'));
   }
+  
+    static get lblErrorMessage () {
+    return element(by.css('.fielditem__msg--error'));
+}
 
 }
 
