@@ -31,7 +31,6 @@
   describe('Register form', () => {
 
     it('Should be displayed when the "Register" link is clicked', () => {
-      browser.pause();
       DisplayForm();
       expect(Register.txtFirstname.isDisplayed()).toBe(true);
       expect(Register.txtLastname.isDisplayed()).toBe(true);
