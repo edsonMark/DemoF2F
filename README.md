@@ -14,13 +14,13 @@ Create a folder and clone this respository with git clone https://github.com/eds
 
 Install protractor globally:
 
-sudo npm install -g protractor --save-dev
+npm install -g protractor
 
-Download webdriver binaries:
+Download webdriver:
 
 webdriver-manager update
 
-Start up server (on a different terminal tab):
+Start up  selenium server (on a different terminal tab):
 
 webdriver-manager start
 
