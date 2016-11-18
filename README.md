@@ -24,3 +24,11 @@ Start up server (on a different terminal tab):
 
 webdriver-manager start
 
+Execute
+
+Execute
+
+run
+
+protractor conf.js which would run the Registerspec.js file
+
