@@ -1,16 +1,15 @@
 # yieldifyTask
 
-The following tests follow the requirements sent via secure email.
-
 Install
 
 Pre-requisite:
 
-Node v4.4.0 at least
+Node
 Java JDK 8
+
 Clone repository:
 
-Create a folder and clone this respository with git clone https://github.com/edsonMark/yieldifyTask.git
+clone https://github.com/edsonMark/yieldifyTask.git
 
 Install protractor globally:
 
