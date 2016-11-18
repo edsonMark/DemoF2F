@@ -26,9 +26,7 @@ webdriver-manager start
 
 Execute
 
-Execute
+protractor conf.js
 
-run
-
-protractor conf.js which would run the Registerspec.js file
+which would run the Registerspec.js file
 
