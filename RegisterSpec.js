@@ -45,12 +45,4 @@
   ;//firstname
     });
 
-    it('Should not allow invalid email', () => {
-      
-      var EC = protractor.ExpectedConditions;
-      DisplayForm();
-      Register.fillForgetForm('', '', 'invalid', '', '');
-      browser.wait(EC.textToBePresentInElement($('Register.txtFirstname'), 'This field is required.'), 5000);
-    });
-
   });
