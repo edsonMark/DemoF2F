@@ -10,11 +10,19 @@
   //
 
   beforeEach (() => {
+    browser.ignoreSynchronization = true;
+   });
+
+  beforeEach (() => {
     browser.manage().deleteAllCookies();
     browser.get('https://www.marksandspencer.com/');
     browser.driver.manage().window().maximize();
     browser.driver.manage().timeouts().implicitlyWait(1500);
   });
+
+  function DisplayForm() {
+    Register.lnkRegister.click();
+  }
 
   function DisplayForm() {
     Register.lnkRegister.click();
