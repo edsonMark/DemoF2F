@@ -31,8 +31,8 @@ class register {
     this.btnCreateAccount.click();
   }
 
-  static get lnkRegister () {
-    return element(by.linkText('Register'));
+    static get lnkRegister () {
+    return element.all(by.css('.account-info .reg-link'));
   }
 
   static get txtFirstname () {
