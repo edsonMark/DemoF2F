@@ -1,7 +1,5 @@
 # yieldifyTask
 
-Sample Protractor login test
-
 The following tests follow the requirements sent via secure email.
 
 Install
