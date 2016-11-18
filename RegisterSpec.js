@@ -34,16 +34,11 @@
       DisplayForm();
       expect(Register.txtFirstname.isDisplayed()).toBe(true);
       expect(Register.txtLastname.isDisplayed()).toBe(true);
-      expect(Register.txtEmail.isDisplayed()).toBe(true);
-      expect(Register.txtPassword.isDisplayed()).toBe(true);
-      expect(Register.txtConfirmPswd.isDisplayed()).toBe(true);
-      expect(Register.btnCreateAccount.isDisplayed()).toBe(true);
     });
 
     it('Should validate mandatory and or empty fields', () => {
 
       var EC = protractor.ExpectedConditions;
-
       DisplayForm();
       Register.fillForgetForm(' ', ' ', ' ', ' ', ' ');
       browser.wait(EC.textToBePresentInElement($('Register.txtFirstname'), 'This field is required.'), 5000);
@@ -51,9 +46,8 @@
     });
 
     it('Should not allow invalid email', () => {
-
+      
       var EC = protractor.ExpectedConditions;
-
       DisplayForm();
       Register.fillForgetForm('', '', 'invalid', '', '');
       browser.wait(EC.textToBePresentInElement($('Register.txtFirstname'), 'This field is required.'), 5000);
