@@ -1,6 +1,6 @@
 #Demo for travel lodge
 
-The following is for the Face 2 Face Demo showing protractor as test tool.
+The following is a demo showing protractor as a Node.js test automation tool.
 
 ## Install
 
@@ -9,7 +9,7 @@ Pre-requisite:
 * Java JDK 8
 
 Clone repository:
-clone https://github.com/edsonMark/DemoF2F.git
+git clone https://github.com/edsonMark/DemoF2F.git
 
 Install protractor globally:
 
