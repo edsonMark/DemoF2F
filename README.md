@@ -1,4 +1,4 @@
-# yieldifyTask
+# DEMOF2F
 Install
 
 Pre-requisite:
@@ -7,7 +7,7 @@ Node
 Java JDK 8
 
 Clone repository:
-clone https://github.com/edsonMark/yieldifyTask.git
+clone https://github.com/edsonMark/DemoF2F.git
 
 Install protractor globally:
 npm install -g protractor
