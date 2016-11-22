@@ -22,9 +22,7 @@ class register {
 
   static RegisterStandAlone () {
     this.lnkRegister.click();
-    browser.sleep(1000);
     this.fillForgetForm('sample', 'sample', 'user'+ Math.floor((Math.random() * 10000))+'@seod.com','Sample1234','Sample1234');
-    browser.sleep(1000);
     browser.executeScript('window.scrollTo(0,0);');
     this.chkEmailUpdate.click();
     this.chktextUpdate.click();
@@ -32,7 +30,7 @@ class register {
   }
 
   static get lnkRegister () {
-    return element(by.linkText('Register'));
+    return element.all(by.css('.account-info .reg-link'));
   }
 
   static get txtFirstname () {
@@ -67,6 +65,8 @@ class register {
     return element(by.id('registerTextUpdates'));
   }
 
+  static get lblErrorMessage () {
+    return element(by.css('.fielditem__msg--error'));
 }
 
-module.exports = register;
+module.exprts = register;
