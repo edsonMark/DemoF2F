@@ -1,10 +1,4 @@
-  /**
-   * Protractor e2e test spec
-   * Started e2e file test
-   */
-  //Task//
-
-  //Variables
+//Variables
   const register = require('../Register/register_pageObject.js');
   //
 
