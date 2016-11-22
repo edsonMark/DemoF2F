@@ -5,8 +5,8 @@ The following is for the Face 2 Face Demo showing protractor as test tool.
 ## Install
 
 Pre-requisite:
-*Node v4.4.0 at the least
-*Java JDK 8
+* Node v4.4.0 at the least
+* Java JDK 8
 
 Clone repository:
 clone https://github.com/edsonMark/DemoF2F.git
