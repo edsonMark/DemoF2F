@@ -69,4 +69,6 @@ class register {
     return element(by.css('.fielditem__msg--error'));
 }
 
+}
+
 module.exprts = register;

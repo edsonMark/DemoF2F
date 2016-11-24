@@ -1,5 +1,5 @@
 //Variables
-  const register = require('../Register/register_pageObject.js');
+  const register = require('./../Register/pageobjects/register_pageObject.js');
   //
 
   beforeEach (() => {
