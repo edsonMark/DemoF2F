@@ -1,4 +1,4 @@
-#Demo for travel lodge
+#Demo
 
 The following is a demo showing protractor as a Node.js test automation tool.
 

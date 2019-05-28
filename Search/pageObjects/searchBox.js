@@ -3,8 +3,6 @@
 * Page object file
 */
 
-//FLEET-411 - Create search result widget //
-
 'use strict';
 
 class searchBox {
@@ -15,7 +13,7 @@ class searchBox {
   }
 
   static get btnSearchBox () {
-    return element(by.css('[ng-model="search.query"]'));
+    return element(by.id('searchButton'));
   }
 
 
@@ -30,8 +28,23 @@ class searchBox {
 
 
   static get txtSearchBox () {
-    return element(by.css('[ng-model="search.query"]'));
+    return element(by.id('searchButton'));
   }
+
+  static Search (searchword) {
+    this.txtSearchBox.sendKeys(searchword);
+  }
+
+  static goMainSearch (searchword) {
+    this.txtMainSearchBox.sendKeys(searchword);
+  }
+
+
+  static searchWord(test) { //test = any search criteria.
+    this.txtSearchBox.clear();
+    this.txtSearchBox.sendKeys(test);
+  }
+
 
 }
 

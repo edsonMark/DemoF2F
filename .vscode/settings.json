@@ -1,0 +1,8 @@
+{
+    "cucumberautocomplete.steps": [
+        "/Users/edson/Desktop/Projects/Demos/DemoF2F/Search/tests/features/step_definition/search_step.js",
+    ],
+
+    "cucumberautocomplete.syncfeatures": "/Users/edson/Desktop/Projects/Demos/DemoF2F/Search/tests/features/Search/search.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
+}
