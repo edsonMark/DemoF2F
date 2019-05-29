@@ -26,5 +26,3 @@ Start up  selenium server (on a different terminal tab):
 ## Execute
 
 `protractor conf.js`
-
-which would run the Registerspec.js file

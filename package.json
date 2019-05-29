@@ -1,0 +1,33 @@
+{
+  "name": "demof2f",
+  "version": "1.0.0",
+  "description": "e2e test",
+  "main": "conf.js",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "fs-extra": "^0.30.0",
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "protractor": "5.1.2",
+    "cucumber": "2.3.1",
+    "protractor-cucumber-framework": "3.1.2",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "cucumber-html-reporter": "2.0.0",
+    "grunt-protractor-runner": "5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonMark/DemoF2F.git"
+  },
+  "author": "edson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsonMark/DemoF2F/issues"
+  },
+  "homepage": "https://github.com/edsonMark/DemoF2F#readme"
+}
